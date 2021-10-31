@@ -1,0 +1,41 @@
+.image img{
+    height: 200px;
+}
+.image{
+    margin: auto;
+    text-align: center;
+}
+.cardStyle{
+    height: 340px;
+    width: 240px;
+    box-shadow: 0.4px 0.4px 5px lightgray;
+}
+.cardStyle:hover .cardContain{
+    opacity: 0.2;
+    height: 285px;
+}
+.cardStyle:hover .price{
+    display: none;
+}
+.cardStyle:hover .cardButton {
+    display: block;
+    transform: translateY(-60%);
+}
+.cardStyle:hover .AddToCard {
+    display: block;
+    transform: translateY(-500%);
+}
+.cardButton{
+    display: none;
+    text-align: center;
+}
+.btnBrand{
+    width: 100%;
+}
+.AddToCard{
+    padding: 4px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+}
